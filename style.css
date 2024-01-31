@@ -1,0 +1,96 @@
+.main {
+    background-image: url('img/back.jpg');
+    min-height: 100vh;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.header {
+    padding-top: 30px;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+}
+.form-control {
+    width: 60%;
+    margin-right: 20px;
+}
+.form-select {
+    width: 300px;
+    height: 35px;
+    margin-right: 20px;
+    font-size: 15px;
+}
+.content {
+    padding-top: 85px;
+    display: flex;
+    font-size: 15px;
+}
+.games_table {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+}
+.games_table_row {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+}
+.games_table_cell {
+    width: 300px;
+}
+.colum_title {
+    width: 100%;
+    color:aliceblue;
+    border-bottom: 3px solid;
+    border-color:black;
+    display: flex;
+    justify-content: center;
+    margin: 0;
+}
+.list-group {
+    text-align: center;
+    word-wrap: break-word;
+    margin-bottom: 0;
+}
+.list-group-item {
+    display: flex; 
+    justify-content: space-between;
+    align-items: center;
+    margin: 0;
+}
+.deletedGame {
+    display: flex;
+    flex-direction: row;
+    justify-content: end;
+    align-items: center;
+    padding: 10px; 
+    margin-right: 20px;
+}
+.deletedGame_done {
+    display: flex;
+    flex-direction: row;
+    justify-content: end;
+    align-items: center;
+    padding: 10px; 
+    margin-left: 20px;
+}
+.arrow_button_first {
+    display: flex;
+    flex-direction: row;
+    justify-content: end;
+    align-items: center;
+    padding: 10px;
+    
+}
+.arrow_button {
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px;
+}
+.game_name {
+    width: 100%;
+    text-align: center;
+}
